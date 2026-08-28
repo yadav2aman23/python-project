@@ -1,0 +1,1 @@
+print("Auto push is working!")
