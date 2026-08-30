@@ -1,1 +1,6 @@
-print("Enter the number : ")
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+
