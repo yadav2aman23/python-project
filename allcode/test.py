@@ -23,7 +23,7 @@ else:
 '''
 
 
-username=input("Enter your username:")
+'''username=input("Enter your username:")
 password=input("Enter your password:")
 if username=="admin":
     if password=="12345":
@@ -32,4 +32,13 @@ if username=="admin":
         print("Invalid password")
 else:
     print("Invalid username")
+'''
+
+
+#loops
+
+i=1
+while i<=5:
+    print(i)
+    i+=1
     
