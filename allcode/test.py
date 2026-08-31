@@ -6,7 +6,7 @@ elif age>=13:
 else:
     print("You are now bacha so you could not to vote ,ghar jawo bache ")
 
-        '''
+        
 
 
 marks=int(input("Enter your marks: "))
@@ -20,3 +20,16 @@ elif marks<=60:
     print("You are fail in all subject and do more hard work next time")
 else:
     print("fill")
+'''
+
+
+username=input("Enter your username:")
+password=input("Enter your password:")
+if username=="admin":
+    if password=="12345":
+        print("Login successfuly")
+    else:
+        print("Invalid password")
+else:
+    print("Invalid username")
+    
