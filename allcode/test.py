@@ -36,9 +36,15 @@ else:
 
 
 #loops
-
-i=1
-while i<=5:
+'''i=1
+while i<=10:
     print(i)
     i+=1
+'''
+
+
+i=int(input("Enter the your number : "))
+while i<=20:
+    print(i)
+    i+=2
     
