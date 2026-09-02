@@ -1,5 +1,11 @@
 !#/bin/bash
-for name in AMAN kumar yadav
+'''for name in AMAN kumar yadav
 do 
     echo "Hello $name"
+done'''
+
+for ip in goole.com facebook.com 
+do 
+    echo "Cheacking $ip "
+    ping -c 1 $ip
 done
