@@ -1,8 +1,8 @@
 #!/bin/bash
 
 add(){
-    result = $(($1 + $2))
-    echo "Result = $result"
+    r= $(($1 + $2))
+    echo "Result = $r "
 
 }
 add 10 20
