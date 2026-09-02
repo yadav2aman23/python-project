@@ -4,7 +4,8 @@ for domain in google.com facebook.com
 do 
     echo "Checking the $domain "
     ip = $(dig + short "$domain" | head -n 1)
-    if[-n "$ip"]
+
+    if [-n "$ip"]
     then 
         echo "$domain $ip "
     else   
