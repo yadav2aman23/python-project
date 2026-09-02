@@ -1,15 +1,13 @@
 #!/bin/bash
-
 for domain in google.com facebook.com
-do 
-    echo "Checking the $domain "
-    ip = $(dig + short "$domain" | head -n 1)
-
+do
+    echo "Chiking the $domian "
+    ip = $(dig + short "$domian"| head -n 1)
     if [-n "$ip"]
-    then 
-        echo "$domain $ip "
-    else   
-        echo "$domain DNS Faill "
-    fi 
-        echo "_____________________"
+    then
+        echo "$domian $ip"
+    else 
+        echo "$domian DNS Fail"
+    fi
+        echo "_______________"
 done
