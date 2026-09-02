@@ -43,8 +43,10 @@ while i<=10:
 '''
 
 
-i=int(input("Enter the your number : "))
+'''i=int(input("Enter the your number : "))
 while i<=20:
     print(i)
     i+=2
-    
+    '''
+#break
+
