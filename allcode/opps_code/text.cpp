@@ -2,6 +2,7 @@
 using namespace std;
 class BankAccount
 {
+public:
     string name;
     int AccountNumber;
     double balance;
