@@ -17,7 +17,7 @@ public:
 void display()
 {
     cout << "Name" << name << endl;
-    cout << "Account NUmber " << AccountNumber << endl;
+    cout << "Account NUmber" << AccountNumber << endl;
     cout << "Balance" << balance << endl;
 }
 int main()
