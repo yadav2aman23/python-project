@@ -25,7 +25,7 @@ public:
 
 int main()
 {
-    BankAccount account1("Aman", 1123454, 8000)
-        account1.display();
+    BankAccount account1("Aman", 1123454, 8000);
+    account1.display();
     return 0;
 }
