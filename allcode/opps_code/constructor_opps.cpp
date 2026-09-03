@@ -9,7 +9,7 @@ public:
 
     // constructor
 
-    BankAccount(string n; int acc; double bal;)
+    BankAccount(string n, int acc;, double bal)
     {
         name = n;
         AccountNumber = acc;
