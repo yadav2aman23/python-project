@@ -14,7 +14,7 @@ public:
         balance = bal;
     }
 };
-void display()
+void Display()
 {
     cout << "Name" << name << endl;
     cout << "Account NUmber" << AccountNumber << endl;
@@ -23,6 +23,6 @@ void display()
 int main()
 {
     BankAccount account1("aman", 123456, 80000);
-    account1.display();
+    account1.Display();
     return 0;
 }
