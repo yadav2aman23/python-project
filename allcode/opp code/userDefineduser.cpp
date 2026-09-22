@@ -12,7 +12,11 @@ public:
 int main()
 {
     student s1;
-    cout << "Enter the name " << s1.name << "Enter the cgpa" << s1.cgpa << "Enter the rollno" << s1.rollno << "Entee the marks" << s1.marks;
+    cout << "\nEnter the name \n"
+         << s1.name << "\nEnter the cgpa\n"
+         << s1.cgpa << "\nEnter the rollno\n"
+         << s1.rollno << "\nEntee the marks\n"
+         << s1.marks;
 
     cin >> s1.name >> s1.cgpa >> s1.rollno >> s1.marks;
 
