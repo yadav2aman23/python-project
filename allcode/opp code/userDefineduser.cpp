@@ -2,6 +2,7 @@
 using namespace std;
 class student
 {
+public:
     string name;
     float cgpa;
     int rollno;
