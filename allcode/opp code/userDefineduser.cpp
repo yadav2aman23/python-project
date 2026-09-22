@@ -5,7 +5,7 @@ class student
     string name;
     float cgpa;
     int rollno;
-    double marks;
+    int marks;
 } int main()
 {
     student s1;
