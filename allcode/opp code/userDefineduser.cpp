@@ -9,16 +9,25 @@ public:
     int rollno;
     int marks;
 };
+
+void print(D s)
+{
+    cout << "\nEnter the name \n"
+         << s.name << "\nEnter the cgpa\n"
+         << s.cgpa << "\nEnter the rollno\n"
+         << s.rollno << "\nEntee the marks\n"
+         << s.marks;
+}
+void input(D s)
+{
+    cin >> s.name >> s.cgpa >> s.rollno >> s.marks;
+}
+
 int main()
 {
     student s1;
-    cout << "\nEnter the name \n"
-         << s1.name << "\nEnter the cgpa\n"
-         << s1.cgpa << "\nEnter the rollno\n"
-         << s1.rollno << "\nEntee the marks\n"
-         << s1.marks;
 
-    cin >> s1.name >> s1.cgpa >> s1.rollno >> s1.marks;
+    print(s1);
 
     return 0;
 }
