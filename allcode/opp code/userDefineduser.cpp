@@ -9,7 +9,7 @@ public:
     int rollno;
     int marks;
 };
-void input(student s)
+void input(student &s)
 {
     cout << "Enter name, CGPA, rollno and marks: ";
     cin >> s.name >> s.cgpa >> s.rollno >> s.marks;
