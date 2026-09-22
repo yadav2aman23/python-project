@@ -9,8 +9,12 @@ public:
     int rollno;
     int marks;
 };
+void input(student s)
+{
+    cin >> s.name >> s.cgpa >> s.rollno >> s.marks;
+}
 
-void print(D s)
+void print(student s)
 {
     cout << "\nEnter the name \n"
          << s.name << "\nEnter the cgpa\n"
@@ -18,14 +22,11 @@ void print(D s)
          << s.rollno << "\nEntee the marks\n"
          << s.marks;
 }
-void input(D s)
-{
-    cin >> s.name >> s.cgpa >> s.rollno >> s.marks;
-}
 
 int main()
 {
     student s1;
+    input(s1);
 
     print(s1);
 
