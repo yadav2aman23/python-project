@@ -17,4 +17,4 @@ int main()
 
     cout << "Enter the name " << s1.name << "Enter the cgpa" << s1.cgpa << "Enter the rollno" << s1.rollno << "Entee the marks" << s1.marks;
     return 0;
-};
+}
