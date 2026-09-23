@@ -2,8 +2,7 @@
 using namespace std;
 int product(int a, int b)
 {
-    a = 5;
-    b = 2;
+    return a * b;
 }
 int main()
 {
