@@ -6,6 +6,7 @@ inline int product(int a, int b)
 }
 int main()
 {
+    int a, b;
     cout << "Enter the numer a ";
     cin >> a;
     cout << "Enter the number b ";
