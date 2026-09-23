@@ -41,6 +41,6 @@ int main()
     --s;
     cout << "\nAfter the Decrement:\n";
     s.output();
-    getch();
+    // getch();
     return 0;
 }
