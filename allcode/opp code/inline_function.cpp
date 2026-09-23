@@ -7,10 +7,10 @@ int product(int a, int b)
     c = c + 1;
     return a * b + c;
 }
-inline int product(int a, int b)
+/*inline int product(int a, int b)
 {
     return a * b;
-}
+}*/
 int main()
 {
     int a, b;
