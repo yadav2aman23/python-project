@@ -1,5 +1,12 @@
 #include <iostream>
 using namespace std;
+
+int product(int a, int b)
+{
+    static int c = 0;
+    c = c + 1;
+    return a * b + c;
+}
 inline int product(int a, int b)
 {
     return a * b;
