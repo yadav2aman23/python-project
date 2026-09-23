@@ -26,15 +26,18 @@ class student
 int main()
 {
     student s;
+    cout << "Enter the you name ,rollno and marks";
     s.input();
     cout << "before the incremnt";
+
     s.output();
     ++s;
     cout << "after  the incremnt";
 
     s.output();
-    cout << "After the decermnt";
+
     --s;
+    cout << "After the decermnt";
 
     return 0;
 }
