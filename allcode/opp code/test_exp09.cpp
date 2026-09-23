@@ -30,8 +30,10 @@ public:
 int main()
 {
     student s;
-    cout << "Before the increment";
+    cout << "Enter the Roll no and name with marks =  ";
+
     s.input();
+    cout << "Before the increment";
     ++s;
     cout << "After the incemnt";
     s.output();
