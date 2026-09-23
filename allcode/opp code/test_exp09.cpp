@@ -33,12 +33,12 @@ int main()
     cout << "Enter the Roll no and name with marks =  ";
 
     s.input();
-    cout << "Before the increment";
+    cout << "Before the increment  ";
     ++s;
-    cout << "After the incemnt";
+    cout << "After the incemnt  ";
     s.output();
     --s;
-    cout << "After the decremnt";
+    cout << "After the decremnt  ";
     s.output();
     return 0;
 }
