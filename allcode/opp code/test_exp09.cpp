@@ -19,7 +19,9 @@ class student
     }
     void output()
     {
-        cout << "Name" << name << "Roll no" << rollno << "Marks" << marks << endl;
+        cout << "Rollno: " << rollno << endl;
+        cout << "Name:" << name << endl;
+        cout << "Marks" << marks << endl;
     }
 };
 
