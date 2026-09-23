@@ -12,5 +12,7 @@ int main()
     cout << "Enter the number b ";
     cin >> b;
 
+    cout << product(a, b) << endl;
+
     return 0;
 }
