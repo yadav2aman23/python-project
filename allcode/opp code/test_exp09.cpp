@@ -2,14 +2,12 @@
 using namespace std;
 class student
 {
-    int rollno;
     char name[20];
     float marks;
-
-public:
+    int rollno;
     void input()
     {
-        cin >> rollno >> name >> marks;
+        cin >> name >> marks >> rollno;
     }
     void operator++()
     {
@@ -21,26 +19,22 @@ public:
     }
     void output()
     {
-        cout << "Rollno" << rollno << endl;
-        cout << "Name" << name << endl;
-        cout << "marks" << marks << endl;
+        cout << "Name" << name << "Roll no" << rollno << "Marks" << marks << endl;
     }
 };
 
 int main()
 {
     student s;
-    cout << "Enter the Roll no and name with marks =  ";
-
     s.input();
-    cout << "Before the increment  ";
+    cout << "before the incremnt";
     s.output();
-
     ++s;
-    cout << "After the incemnt  ";
+    cout << "after  the incremnt";
+
     s.output();
+    cout << "After the decermnt";
     --s;
-    cout << "After the decremnt  ";
-    s.output();
+
     return 0;
 }
