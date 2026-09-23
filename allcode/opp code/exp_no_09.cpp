@@ -34,6 +34,7 @@ int main()
     cout << "Enter the Roll no  and you name with marks";
     s.input();
     cout << "\nbefore the increment:\n";
+
     s.output();
     ++s;
 
