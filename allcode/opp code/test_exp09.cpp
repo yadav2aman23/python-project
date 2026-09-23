@@ -30,6 +30,7 @@ int main()
 {
     student s;
     cout << "Enter the you name ,rollno and marks";
+
     s.input();
     cout << "before the incremnt";
 
@@ -38,9 +39,9 @@ int main()
     cout << "after  the incremnt";
 
     s.output();
-
     --s;
     cout << "After the decermnt";
+    s.output();
 
     return 0;
 }
