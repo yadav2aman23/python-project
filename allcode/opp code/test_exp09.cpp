@@ -34,6 +34,8 @@ int main()
 
     s.input();
     cout << "Before the increment  ";
+    s.output();
+
     ++s;
     cout << "After the incemnt  ";
     s.output();
