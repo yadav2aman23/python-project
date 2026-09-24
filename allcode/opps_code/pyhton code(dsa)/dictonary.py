@@ -36,7 +36,7 @@ students={
     "student1":{"name":"Aman","rollno":4585,"age":45},
     "student2":{"name":"Kumar","rollno":452,"age":963}
 }
-print(students)
+#print(students)
 
 
 for student_id,student_info in students.items():
