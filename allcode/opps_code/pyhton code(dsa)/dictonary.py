@@ -1,4 +1,4 @@
-student={"name":"Aman","age":45,"Grade":"A"}
+#student={"name":"Aman","age":45,"Grade":"A"}
 ##print(student)
 ##print(student["name"])
 ##print(student["age"])
@@ -27,5 +27,13 @@ for items in student.items():
     print(items)'''
 
 
-for keys,values in student.items():
-    print(f"{keys}:{values}")
+'''for keys,values in student.items():
+    print(f"{keys}:{values}")'''
+
+
+
+students={
+    student1={"name":"aman","age":25,"rollno":485}
+    student2={"name":"kumar","age":54,"rollno":4756}
+}
+print(students)
