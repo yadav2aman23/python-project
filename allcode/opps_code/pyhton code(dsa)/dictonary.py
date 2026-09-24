@@ -20,8 +20,12 @@ student={"name":"Aman","age":45,"Grade":"A"}
 ##print(iteam)
 
 
-for keys in student.keys():
+'''for keys in student.keys():
     print(keys)
 
 for items in student.items():
-    print(items)
+    print(items)'''
+
+
+for keys,values in student.items():
+    print(f"{keys}:{values}")
