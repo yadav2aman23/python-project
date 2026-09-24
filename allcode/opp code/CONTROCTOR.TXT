@@ -20,6 +20,119 @@ student (string name,int rollno,float gcpa,int marks)
 stduent s1("aman",1222,52.5,85);
 
 
+**** Acces MOdigireers :--
+
+    private -- data & methods accessible inside class.
+    public -- data & methods accessible to everone
+    protected -- data & methods accessible inside class & to its derived class.
+
+
+**** Encapsulation :----
+
+    Encapsulation is a group of object and methods [
+        class studnet {
+            int name;
+            int rollno;
+
+            void getdata( int a){
+
+            }
+            void setdata(int a){
+
+            }
+
+        }
+    ]
+
+**** Contrucation :---
+(1) same name as class;
+(2) Contrucation does't have a return type;
+(3)it is call ones time (autometices),at object cration;
+
+
+
+    parameterized-----
+
+    class techer {
+        int name;
+        int rollno;
+    }
+    techer(string n, string r){
+        name =n;
+        rollno=r;
+    }
+    void getinfo(){
+        cout << "name" <<name<<endl;
+        cout <<"Roll no "<<rollno<<endl;
+
+    }
+
+    int main(){
+        techer t1("aman",8545)
+        t1.getinfo();
+    }
+
+
+**** this type { Contrucation}
+
+    syblo-- this--> { it is show your obejct is here }
+
+    class techer {
+        int name;
+        int rollno;
+    }
+    techer(string n, string r){
+        this-->name =n;   // its help to esily find the objects.
+        this-->rollno=r;  // its help to esily find the objects.
+    }
+    void getinfo(){
+        cout << "name" <<name<<endl;
+        cout <<"Roll no "<<rollno<<endl;
+
+    }
+
+    int main(){
+        techer t1("aman",8545)
+        t1.getinfo();
+    }
+
+
+*** copy:--
+    
+
+
+  #include<iostream>
+  using namespace std;
+  class studnet{
+    public:
+    string name;
+    double cgpa;
+
+    student(string name, dobule cgpa){
+        this-->name=name;
+        this-->cgpa=cgpa;
+    }
+
+    void getInfo(){
+        cout <<"name: " <<name <<endl;
+        cout <<"cgpa:"<<cgpa <<endl;
+    }
+  };
+
+int main(){  
+      studnet s1("rahulk kumar",8.9);
+      student s2(s1);
+      s2.getInfo();
+      return 0;
+
+
+}
+
+
+****Destructor---
+
+~
+
 
 
 
