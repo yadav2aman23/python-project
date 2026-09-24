@@ -22,3 +22,6 @@ student={"name":"Aman","age":45,"Grade":"A"}
 
 for keys in student.keys():
     print(keys)
+
+for items in student.items():
+    print(items)
