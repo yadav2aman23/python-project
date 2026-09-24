@@ -10,11 +10,15 @@ student={"name":"Aman","age":45,"Grade":"A"}
 ##student["name"]="yadav"
 ##print(student)
 
-keys=student.keys()
-print(keys)
+##keys=student.keys()
+##print(keys)
 
-values=student.values()
-print(values)
+##values=student.values()
+##print(values)
 
-iteam=student.items()
-print(iteam)
+##iteam=student.items()
+##print(iteam)
+
+
+for keys in student.keys()
+    print(keys)
