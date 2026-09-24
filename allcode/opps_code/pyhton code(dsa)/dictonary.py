@@ -7,4 +7,4 @@ student={"name":"Aman","age":45,"Grade":"A"}
 ##print(student.get("name_null","kumar"))
 
 
-student=["name"]="yadav"
+student["name"]="yadav"
