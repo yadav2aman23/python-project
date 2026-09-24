@@ -15,3 +15,6 @@ print(keys)
 
 values=student.values()
 print(values)
+
+iteam=student.items()
+print(iteam)
