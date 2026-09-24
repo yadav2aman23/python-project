@@ -37,3 +37,9 @@ students={
     "student2":{"name":"Kumar","rollno":452,"age":963}
 }
 print(students)
+
+
+for student_id,student_info in students.items():
+    print(f"{student_id}:{student_info}")
+    for keys,values in student_info.items():
+        print(f"{keys}:{values}")
