@@ -20,5 +20,5 @@ student={"name":"Aman","age":45,"Grade":"A"}
 ##print(iteam)
 
 
-for keys in student.keys()
+for keys in student.keys():
     print(keys)
