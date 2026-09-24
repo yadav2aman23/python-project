@@ -8,3 +8,4 @@ student={"name":"Aman","age":45,"Grade":"A"}
 
 
 student["name"]="yadav"
+print(student)
