@@ -12,3 +12,6 @@ student={"name":"Aman","age":45,"Grade":"A"}
 
 keys=student.keys()
 print(keys)
+
+values=student.values()
+print(values)
