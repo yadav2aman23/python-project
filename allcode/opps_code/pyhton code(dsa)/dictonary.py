@@ -7,5 +7,8 @@ student={"name":"Aman","age":45,"Grade":"A"}
 ##print(student.get("name_null","kumar"))
 
 
-student["name"]="yadav"
-print(student)
+##student["name"]="yadav"
+##print(student)
+
+keys=student.keys()
+print(keys)
