@@ -33,7 +33,7 @@ for items in student.items():
 
 
 students={
-    "student1":{"name":"aman","age":25,"rollno":485},
-    "student2":{"name":"kumar","age":54,"rollno":4756}
+    "student1":{"name":"Aman","rollno":4585,"age":45},
+    "student2":{"name":"Kumar","rollno":452,"age":963}
 }
 print(students)
