@@ -4,7 +4,7 @@ grade.append(85)
 
 average_grade=sum(grade)/len(grade)
 
-print(f"Average grade :{average_grade}")
+print(f"Average grade :{average_grade}") 
 
 higest_grade=max(grade)
 loswerst_grade=min(grade)
