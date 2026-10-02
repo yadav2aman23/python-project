@@ -31,8 +31,8 @@ public:
 
 int main()
 {
-    dog d;
-    cat c;
+    Dog d;
+    Cat c;
 
     d.eat();
 
