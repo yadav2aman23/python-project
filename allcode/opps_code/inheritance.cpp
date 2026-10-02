@@ -11,7 +11,7 @@ public:
     }
 };
 
-class Dog() : public animals
+class Dog : public animals
 {
 public:
     void brak()
@@ -20,7 +20,7 @@ public:
     }
 };
 
-class Cat() : public animals
+class Cat : public animals
 {
 public:
     void sleep()
@@ -29,7 +29,7 @@ public:
     }
 };
 
-inr main()
+int main()
 {
     dog d;
     cat c;
