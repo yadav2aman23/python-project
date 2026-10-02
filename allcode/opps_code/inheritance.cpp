@@ -11,7 +11,7 @@ public:
     }
 };
 
-class Dog()
+class Dog() : public animals
 {
 public:
     void brak()
@@ -34,7 +34,7 @@ inr main()
     dog d;
     cat c;
 
-    d.eat()
+    d.eat();
 
-        return 0;
+    return 0;
 }
