@@ -1,12 +1,37 @@
-/* Problem 1 — Single Inheritance Create a parent class Animal with a method :*/
+#include <iostream>
+using namespace std;
 
-class animals() : def eat(self) : print("Eatings")
+class Animals
+{
+public:
+    void eat()
+    {
+        cout << "Animals is eatiing " << endl;
+    }
+};
 
-                                      class Dog(animals) : def bark(self) : print("Barkings")
+class Dog : public Animals
+{
+public:
+    void eat()
+    {
+        cout << "Animals is eating" << endl;
+    }
+};
 
-                                                                                class cat(animals) : def sleep(self) : print("sleeping")
+class cat : public Animals
+{
+public:
+    void eat()
+    {
+        cout << "Eating" << endl;
+    }
+};
 
-                                                                                                                           d = dog()
-                                                                                                                               c = cat()
+int main()
+{
+    Dog dog;
+    cat cat;
 
-                                                                                                                                       d.eat()
+    Cat.eat();
+}
