@@ -1,18 +1,12 @@
-class Animal:
-    def eat(self):
-        print("Eating")
+'''Problem 1 — Single Inheritance Create a parent class Animal with a method :'''
 
-class Dog(Animal):
-    def bark(self):
-        print("Barking")
+    class animals() : def eat(self) : print("Eatings");
 
-class Cat(Animal):
-    def meow(self):
-        print("Meowing")
+class Dog(animals) : def bark(self) : print("Barkings");
 
-dog = Dog()
-cat = Cat()
+class cat(animals) : def sleep(self) : print("sleeping");
 
-dog.eat()
-cat.eat()
-cat.meow()
+d = dog();
+c = cat();
+
+d.eat()
