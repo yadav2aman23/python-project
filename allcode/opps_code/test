@@ -15,3 +15,4 @@ cat = Cat()
 
 dog.eat()
 cat.eat()
+dog.meow()
