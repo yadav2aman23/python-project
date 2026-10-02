@@ -34,4 +34,6 @@ int main()
     cat cat;
 
     Cat.eat();
+
+    return 0;
 }
