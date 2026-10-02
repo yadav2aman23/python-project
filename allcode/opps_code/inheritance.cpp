@@ -6,7 +6,7 @@ class Dog(animals) : def bark(self) : print("Barkings");
 
 class cat(animals) : def sleep(self) : print("sleeping");
 
-d = dog();
-c = cat();
+d = dog()
+    c = cat()
 
-d.eat()
+            d.eat()
