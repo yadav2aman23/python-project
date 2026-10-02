@@ -31,7 +31,7 @@ public:
 int main()
 {
     Dog dog;
-    cat cat;
+    cat Cat;
 
     Cat.eat();
 
