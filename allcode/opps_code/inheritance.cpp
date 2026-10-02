@@ -1,40 +1,36 @@
 #include <iostream>
-
 using namespace std;
-
-class animals
+class animals()
 {
 public:
     void eat()
     {
-        cout << "she is eating" << endl;
+        cout << "Eating" << endl;
     }
 };
 
-class Dog : public animals
+class dog : public animals
 {
 public:
-    void brak()
+    void bark()
     {
-        cout << "A dog is barking" << endl;
+        cout << "the dogs was braking" << endl;
     }
 };
 
-class Cat : public animals
+class cat : public animals
 {
 public:
     void sleep()
     {
-        cout << "She is sleeping " << endl;
+        cout << "she was slepping" << endl;
     }
 };
 
 int main()
 {
-    Dog d;
-    Cat c;
+    dog D;
+    cat c;
 
-    d.eat();
-
-    return 0;
+    c.eat();
 }
