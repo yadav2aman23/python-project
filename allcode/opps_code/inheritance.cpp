@@ -1,4 +1,5 @@
-'''Problem 1 — Single Inheritance Create a parent class Animal with a method :'''
+''' Problem 1 — Single Inheritance Create a parent class Animal with a method :
+'''
 
     class animals() : def eat(self) : print("Eatings");
 
