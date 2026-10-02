@@ -35,4 +35,6 @@ inr main()
     cat c;
 
     d.eat()
+
+        return 0;
 }
