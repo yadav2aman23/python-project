@@ -33,4 +33,5 @@ int main()
     cat c;
 
     c.eat();
+    return 0;
 }
