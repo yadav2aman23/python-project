@@ -20,7 +20,7 @@ public:
     }
 };
 
-class Cat()
+class Cat() : public animals
 {
 public:
     void sleep()
