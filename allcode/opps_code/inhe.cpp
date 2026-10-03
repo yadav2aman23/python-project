@@ -1,13 +1,12 @@
-// single inheritant
-
-#include <iostream>
+#include <iostrem>
 using namespace std;
+
 class Animals
 {
 public:
     void eat()
     {
-        cout << "Animals are eating" << endl;
+        cout << "The animls are eating" << endl;
     }
 };
 
@@ -16,7 +15,7 @@ class Dog : public Animals
 public:
     void brak()
     {
-        cout << "the dogs are breaking" << endl;
+        cout << "the dog is breking " << endl;
     }
 };
 
@@ -25,18 +24,17 @@ class cat : public Animals
 public:
     void sleep()
     {
-        cout << "The cat is sleep" << endl;
+        cout << "the cat is sleepiing" << endl;
     }
 };
 
 int main()
 {
-    Dog d;
-    cat c;
+    Dog.d;
+    cat.c;
 
     d.eat();
-    c.eat();
-    d.brak();
+    d.sleep();
 
     return 0;
-};
+}
