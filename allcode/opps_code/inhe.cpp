@@ -14,7 +14,7 @@ public:
 class Dog : public Animals
 {
 public:
-    void break()
+    void brak()
     {
         cout << "the dogs are breaking" << endl;
     }
