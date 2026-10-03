@@ -37,7 +37,6 @@ int main()
     d.eat();
     c.eat();
     d.break();
-    c.break();
 
     return 0;
 };
