@@ -38,4 +38,6 @@ int main()
     c.eat();
     d.break();
     c.break();
+
+    return 0;
 }
