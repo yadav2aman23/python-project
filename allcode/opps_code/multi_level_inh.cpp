@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Animal
+class Animals
 {
 public:
     void eat()
@@ -11,31 +11,31 @@ public:
     }
 };
 
-class mammal : public Animal
+class raj : public Animals
 {
 public:
     void walk()
     {
-        cout << "Mammal is walking " << endl;
+        cout << "Raj is walking" << endl;
     }
 };
 
-class Dog : public mammal
+class dog : public raj
 {
-
 public:
-    void bark()
+    void brak()
     {
-        cout << "Dog is barking " << endl;
+        cout << "The dog was braking" << endl;
     }
 };
 
 int main()
 {
-    Dog d;
+    dog d;
 
+    d.brak();
     d.eat();
     d.walk();
-    d.bark();
+
     return 0;
 }
