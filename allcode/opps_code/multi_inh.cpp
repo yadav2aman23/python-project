@@ -28,7 +28,7 @@ public:
     }
 };
 
-int mian()
+int main()
 {
     Child c;
 
@@ -37,4 +37,4 @@ int mian()
     c.cook();
 
     return 0;
-}
+};
