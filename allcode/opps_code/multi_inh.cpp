@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-class Father
+class Fahter
 {
 public:
     void work()
     {
-        cout << "Father is working" << endl;
+        cout << "Father is working " << endl;
     }
 };
 
@@ -15,26 +15,26 @@ class Mother
 public:
     void cook()
     {
-        cout << "Mother is cooking " << endl;
+        cout << "mother is cooking " << endl;
     }
 };
 
-class Child : public Father, public Mother
+class Child : public Fahter, public Mother
 {
 public:
     void play()
     {
-        cout << "Chils is play" << endl;
+        cout << "The child playing " << endl;
     }
 };
 
-int main()
+int mian()
 {
     Child c;
 
     c.work();
     c.play();
-    c.work();
+    c.cook();
 
     return 0;
-};
+}
