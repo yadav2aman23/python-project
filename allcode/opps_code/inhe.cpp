@@ -1,30 +1,41 @@
-// single Inheritance
+// single inheritant
 
 #include <iostream>
 using namespace std;
-
-class Animal
+class Animals
 {
 public:
     void eat()
     {
-        cout << "Animals are eating " << endl;
+        cout << "Animals are eating" << endl;
     }
 };
 
-class Dog : public Animal
+class Dog : public Animals
 {
 public:
-    void bark()
+    void break()
     {
-        cout << "Dog is barking " << endl;
+        cout << "the dogs are breaking" << endl;
+    }
+};
+
+class cat : public Animals
+{
+public:
+    void sleep()
+    {
+        cout << "The cat is sleep" << endl;
     }
 };
 
 int main()
 {
     Dog d;
+    cat c;
 
-    d.eat();
-    d.bark();
+    d.eat()
+        c.eat()
+            d.break()
+                c.break()
 }
