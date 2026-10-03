@@ -40,4 +40,4 @@ int main()
     c.break();
 
     return 0;
-}
+};
