@@ -34,7 +34,7 @@ int main()
     cat c;
 
     d.eat();
-    d.sleep();
+    c.sleep();
 
     return 0;
 }
