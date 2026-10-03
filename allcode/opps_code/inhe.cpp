@@ -30,8 +30,8 @@ public:
 
 int main()
 {
-    Dog.d;
-    cat.c;
+    Dog d;
+    cat c;
 
     d.eat();
     d.sleep();
