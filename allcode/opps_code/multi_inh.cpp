@@ -36,4 +36,4 @@ int main()
     c.work();
 
     return 0;
-}
+};
