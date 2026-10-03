@@ -38,4 +38,4 @@ int main()
     d.walk();
 
     return 0;
-}
+};
