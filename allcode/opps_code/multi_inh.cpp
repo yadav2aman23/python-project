@@ -30,7 +30,8 @@ public:
 
 int main()
 {
-    child c;
+    Child c;
+
     c.work();
     c.play();
     c.work();
