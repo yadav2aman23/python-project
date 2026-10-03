@@ -1,7 +1,7 @@
-#single Inheritance
+##single Inheritance
 
 #include <iostream>
-using namespace std;
+    using namespace std;
 
 class Animal
 {
