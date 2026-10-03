@@ -34,8 +34,8 @@ int main()
     Dog d;
     cat c;
 
-    d.eat()
-        c.eat()
-            d.break()
-                c.break()
+    d.eat();
+    c.eat();
+    d.break();
+    c.break();
 }
